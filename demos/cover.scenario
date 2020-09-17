@@ -4,7 +4,7 @@
 # * empty lines will be skipped
 # * lines starting with "#" will be skipped
 # * lines starting with "$ " will be typed
-# * lines starting with "[nix-shell]$ " will be typed
+# * lines starting with "[nix-shell]$ " will be printed immediately
 # * lines starting with "--" will clear the screen
 # * every line after "#" will be a little brighter
 # * everything else will be printed immediately
@@ -24,6 +24,7 @@ $ nix-shell -p nodejs
 2
 [nix-shell]$ # And now we are able to use node.
 [nix-shell]$ # Nix Magic! :)
+$ # Moving to next example...
 
 --
 
@@ -53,6 +54,7 @@ Start developing...
 2
 [nix-shell]$ # Now go ahead commit default.nix to your repository
 [nix-shell]$ # and share your development environment with your coworkers
+$ # Moving to next example...
 
 --
 
